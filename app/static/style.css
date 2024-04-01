@@ -1,0 +1,36 @@
+/* "Корневые" элементы и их ближайшие дочерние элементы */
+
+body {
+	min-height: 100vh;
+	background-color: rgb(246, 244, 240);
+}
+
+.header,
+.footer {
+	background-color: rgb(10, 9, 10);
+}
+
+.header *,
+.footer * {
+	color: rgb(153, 205, 205);
+}
+
+.header a:hover,
+.footer a:hover {
+	color: white;
+}
+
+.header *,
+.footer * {
+	font-size: 1rem;
+}
+
+.footer {
+	min-height: 50px;
+}
+
+/* Стили по умолчанию */
+main,
+section {
+	margin-top: 1rem !important;
+}
